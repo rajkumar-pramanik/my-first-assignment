@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+}
+
+/* General Styles */
+
+section {
+  padding-top: 130px;
+}
+
+.column {
+  width: 50%;
+}
+
+.btn {
+  font-style: normal;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  padding: 18px 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #005fac;
+  display: inline-block;
+}
+.btn-primary:hover{
+  background-color: #151414;
+}
+
+.btn-secondary {
+  background-color: #005fac;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  color: #151414;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+}
+/* Header Syles */
+
+.contact {
+  color: #fff;
+}
+
+nav {
+  background-color: #02649c;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+nav li{
+  border: 2px solid darkorange;
+  background-color: rgb(30, 248, 77);
+  margin: 5px;
+}
+
+nav li:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+.header-container {
+  background-image: url(../images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 150px 100px;
+}
+
+.header-content-box {
+  width: 55%;
+  padding: 0px 6%;
+  text-align: right;
+  color: #fff;
+}
+
+.header-content-box p {
+  margin: 24px 0px;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* My-failure section styles */
+
+.my-failure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description-part {
+  padding: 100px;
+}
+
+.photo-part img {
+  width: 100%;
+  height: 100%;
+}
+
+.description-part p {
+  margin: 24px 0 16px 0px;
+  color: #444343;
+}
+
+.description-part ul {
+  list-style: none;
+  line-height: 26px;
+}
+
+.description-part ul li {
+  line-height: 26px;
+}
+
+.checkmark {
+  width: 20px;
+  height: auto;
+  margin-bottom: -6px;
+}
+
+/* My Plan styles */
+
+.my-plan {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill p {
+  font-size: 25px;
+  color: #737272;
+}
+
+.my-plan h2 {
+  margin-bottom: 50px;
+}
+
+.skill h3 {
+  margin: 24px 0px 16px 0px;
+}
+
+/* Positive Mindse styles */
+
+.positive-mindset {
+  background-image: url("../images/watch.png"),
+    linear-gradient(90deg, #8441ff 0%, rgba(0, 95, 172, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  background-blend-mode: overlay;
+  margin-top: 130px;
+  padding: 59px 0px;
+  border-radius: 5px;
+}
+
+.pm-part {
+  padding-left: 75px;
+}
+
+.pm-part h2 {
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 130px;
+  padding: 130px 0px;
+  background-color: #151414;
+  color: #f8f8f8;
+}
+
+.future {
+  width: 41%;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 18px;
+}
+
+.subscribe {
+  width: 30%;
+  padding-left: 30px;
+}
+
+.future h2 {
+  font-size: 45px;
+  color: #fff;
+}
+
+.future > p {
+  margin: 16px 0px 24px 0px;
+}
+
+.subscribe h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+input[type="email"] {
+  margin: 30px 0px 16px 0px;
+  background-color: #151414;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff !important;
+  width: 65%;
+  display: block;
+}
